@@ -6,10 +6,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Install dependencies
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
+Run `npm install` to install required dependencies for running of this project.
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
@@ -21,6 +20,11 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Server side rendering
+Run `ng add @nguniversal/express-engine --clientProject angular-ssr` To create the server-side app module, app.server.module.ts .
+
+Run `npm run build:ssr && npm run serve:ssr` To start rendering your app with Universal on your local system.
 
 ## Further help
 
