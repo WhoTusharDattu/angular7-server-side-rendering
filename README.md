@@ -22,7 +22,6 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Server side rendering
-Run `ng add @nguniversal/express-engine --clientProject angular-ssr` To create the server-side app module, app.server.module.ts .
 
 Run `npm run build:ssr && npm run serve:ssr` To start rendering your app with Universal on your local system.
 
